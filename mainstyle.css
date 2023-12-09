@@ -1,0 +1,19 @@
+
+* {	text-align: center; 
+	}
+
+body {	background-color: DarkGreen; 
+	font-family: Garamond, serif; 
+	}
+
+h1 { 	color: lavender; 
+	padding: 10px; 
+	text-decoration: bold; 
+	}
+
+h2 { 	color: MediumSeaGreen; 
+	padding: 10px; 
+	}
+
+p { 	color: Azure; 
+	}
