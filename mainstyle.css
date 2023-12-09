@@ -2,18 +2,40 @@
 * {	text-align: center; 
 	}
 
-body {	background-color: DarkGreen; 
-	font-family: Garamond, serif; 
+body {	background-color: #003500;   
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
 	}
 
-h1 { 	color: lavender; 
+h1 { 	color: Silver; 
+	padding: 5px; 
+	text-decoration: underline; 
+	}
+
+h2 { 	color: Grey; 
 	padding: 10px; 
-	text-decoration: bold; 
+	}
+	
+h3 { 	color: Azure; 
+	padding: 15px; 
+	font-size:24px;
 	}
 
-h2 { 	color: MediumSeaGreen; 
-	padding: 10px; 
+p { 	color: WhiteSmoke; 
 	}
+	
+ul {color:PaleGreen;
+    list-style-type: none;
+  }	
+	
+li {padding:7px;
+  }
+	
+li::before {
+  content: "<<";
+  color: MediumSpringGreen;
+}
 
-p { 	color: Azure; 
-	}
+li::after {
+  content: ">>";
+  color: MediumSpringGreen;
+}
