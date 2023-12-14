@@ -37,10 +37,12 @@ li {padding:7px;
 	
 li::before {
   content: "<<";
-  color: MediumSpringGreen;
+  color:Green;
+  <!--color: MediumSpringGreen; --!>
 }
 
 li::after {
   content: ">>";
-  color: MediumSpringGreen;
+  color:Green;
+  <!--color: MediumSpringGreen; --!>
 }
